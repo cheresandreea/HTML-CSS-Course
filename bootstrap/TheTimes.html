@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+    <link rel = "stylesheet" href = "styless.css/header.css">
+  </head> 
+
+  <body>
+    <!-- <div class="box bg-black">
+      <img class="the-times-logo" src="logos/times-white-small-f4ad00a748.png">
+      <div>
+        <button>Today's section</button>
+        <button>Past six days</button>
+      </div>
+      
+    </div>    -->
+
+    <nav class="navbar navbar-expand-sm bg-black main-bar fixed-top">
+
+      <div class="container-fluid" style="display: flex; align-items: center;">
+        <ul class="navbar-nav mynavbar">
+          <li class="nav-item">
+            <img class="navbar-brand navbar-logo mt-2" src="logos/times-white-small-f4ad00a748.png">
+          </li>
+          <li class="nav-item dropdown today-section-logo display-none">
+            <a class="nav-link dropdown-toggle today-section-link" style="color: white;" data-bs-toggle="dropdown" href="#">Today's sections</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">News</a></li>
+              <li><a class="dropdown-item" href="#">World</a></li>
+              <li><a class="dropdown-item" href="#">Comment</a></li>
+              <li><a class="dropdown-item" href="#">Business</a></li>
+              <li><a class="dropdown-item" href="#">Sport</a></li>
+              <li><a class="dropdown-item" href="#">Times2</a></li>
+              <li><a class="dropdown-item" href="#">Luxury</a></li>
+              <li><a class="dropdown-item" href="#">Travel</a></li>
+              <li><a class="dropdown-item" href="#">Register</a></li>
+              <li><a class="dropdown-item" href="#">Puzzles</a></li>
+              <li><a class="dropdown-item" href="#">Scotland</a></li>
+            </ul>
+          </li>
+          <li class="nav-item  past-six-days-logo display-none">
+            <a class="nav-link past-six-days-link" style="color: white;" href="#">Past six days</a>
+          </li>
+          <li class="nav-item dropdown explore-logo">
+            <a class="nav-link explore-logo dropdown-toggle display-none" style="color: white;" data-bs-toggle="dropdown" href="#">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Politics</a></li>
+              <li><a class="dropdown-item" href="#">Business & Finance</a></li>
+              <li><a class="dropdown-item" href="#">Society</a></li>
+              <li><a class="dropdown-item" href="#">Sport</a></li>
+              <li><a class="dropdown-item" href="#">Arts & Culture</a></li>
+              <li><a class="dropdown-item" href="#">Life & Style</a></li>
+              <li><a class="dropdown-item" href="#">Luxury</a></li>
+              <li><a class="dropdown-item" href="#">Travel</a></li>
+              <li><a class="dropdown-item" href="#">Environment</a></li>
+              <li><a class="dropdown-item" href="#">Russia-Ukraaine war</a></li>
+              <li><a class="dropdown-item" href="#">Puzzles</a></li>
+            </ul>
+          </li>
+          <li class="nav-item times-radio-logo display-none">
+            <a class="nav-link times-radio-link" style="color: white;" href="#">Times radio</a>
+          </li>
+          <li class="nav-item login-logo display-none">
+            <a class="nav-link login-link" style="color: white;" href="#">Log in</a>
+          </li>
+          <li class="nav-item subscribe-logo display-none">
+            <a class="nav-link subscribe-link" style="color: white;" href="#">Subscribe</a>
+          </li>
+          <li class="nav-item display-none" style="background-color: rgb(102, 101, 99); ">
+            <input type="text" class="form-control search-logo" placeholder="Search">
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <div class="container all-page-container bg-white">
+      <div class="container bg-white adds-container" >
+          <img class="img-gif img-fluid" src="logos/13568884036646913364.gif">
+      </div>
+      <div class="container container-img-the-times">
+        <img class="img-the-times img-fluid" src="logos/times-black-ee1e0ce4ed.png"><br>
+        <p class="para-the-times">  WEDNESDAY JULY 19 2023</p>
+      </div>
+      
+
+      <div class="container-fluid bg-black enjoy-container">
+        <h1 class="title">
+          Enjoy unlimited digital access.
+        </h1>
+        <p>
+          Read trusted, award-winning journalism.
+        </p>
+        <p class="par2">
+          Just £1 for 6 months.
+        </p>
+        <button class="btn btn-subscribe">
+          Subscribe now
+        </button>
+        <p class="subsc-par">
+          Already a subscriber? <u>Login</u>
+        </p>
+      </div>
+
+      <div class="container bg-white mt-1 bg-black h-100">
+        <div class="row ">
+          <div class="col-lg-5 col-md-6 col-sm-12 h-100 ">
+            <div class="row">
+              <div class="col-12 ">
+                <h1 style="
+                font-size: 40px; font-weight: bold">Western economies heading for 'soft landing', predicts upbeat IMF</h1>
+                <h4>Growth of 0.4% expected for UK this year</h4>
+                <p style="font-size:10px; text-align: left; color: red;">&loz; NEW</p>
+                <p style="font-size:15px; text-align: left;">The International Monetary Fund has upgraded its forecast for the world economy this year amid hopes that economic powerhouses including the United States are heading for a “soft landing” after suffering from more than a year of high inflation. The Washington-based body said global output would...</p>
+              </div>
+              <div class="col-12">
+                <p style="font-size:10px; text-align: left;">POLITICS</p>
+                <h1 style="font-size: 40px; font-weight: bold">Gove piles pressure on NatWest boss inFarage row</h1>
+                <h4>Growth of 0.4% expected for UK this year</h4>
+                <p style="font-size:10px; text-align: left; color: red;">&loz; NEW</p>
+                <p style="font-size:15px; text-align: left;">Michael Gove has piled pressure on the chief executive of NatWest by suggesting the bank has “further to go” to rectify the row with Nigel Farage. The housing secretary described the decision of Coutts, a subsidiary of NatWest Group, to close the former Brexit Party leader’s accounts over his views as a “big mistake”.</p>
+              </div> 
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <img style="width: 150px;" src="logos/_methode_times_prod_web_bin_b4aa5928-2af0-11ee-b33d-6d3f5a636b40.jpg">
+            <p style="font-size:13px; text-align: left;">VIDEO</p>
+            <p style="font-size:13px; text-align: left;">WORLD NEWS</p>
+            <p style="font-size:10px; text-align: left; color:blue">&loz; UPDATED</p>
+            <h4>Aircraft fighting Greek fires crashes into hillside</h4>
+            <p style="font-size:15px; text-align: left;">A plane fighting a wildfire on an island in Greece has crashed, as a red alert for wildfires has been extended to Crete amid fears of further blazes hitting holiday hotspots in the coming days. A spokesman for the fire service confirmed that a Greek Canadair plane with two people on board crashed near...</p>
+          </div>
+
+          <div class="col-lg-5 col-md-12 col-sm-12">
+            <p style="font-size:13px; text-align: left;">TECHNOLOGY</p>
+            <h4>Police halt Musk's second attempt to remove Twitter sign</h4>
+            <img class="img-fluid" src="logos/_methode_times_prod_web_bin_474c96c4-2ad8-11ee-85ee-e79450ebf2b0.jpg">
+          </div>
+        </div>
+
+        <div class="row mt-3" style="margin-bottom: 20px;">
+            <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 20px;">
+              <div class="row">
+                <div class="col">
+                  <img class="img-fluid" src="logos/i1.jpg">
+                  <p style="font-size:15px; text-align: left;">WAR IN UKRAINE</p>
+                  <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;">Ukraine is wasting western training says German army</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 20px;">
+              <div class="row">
+                <div class="col">
+                  <img class="img-fluid" src="logos/i2.jpg">
+                  <p style="font-size:15px; text-align: left;">WAR IN UKRAINE</p>
+                  <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;">Ukraine is wasting western training says German army</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6" style="margin-bottom: 20px;">
+              <div class="row">
+                <div class="col">
+                  <img class="img-fluid" src="logos/i3.jpg">
+                  <p style="font-size:15px; text-align: left;">WAR IN UKRAINE</p>
+                  <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;">Ukraine is wasting western training says German army</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-xsm-6 col-sm-6 " style="margin-bottom: 20px;" >
+              <div class="row">
+                <div class="col">
+                  <img class="img-fluid" src="logos/i4.jpg">
+                  <p style="font-size:15px; text-align: left;">WAR IN UKRAINE</p>
+                  <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;">Ukraine is wasting western training says German army</h2>
+                </div>
+              </div>
+            </div>
+        </div>
+     
+      </div>
+
+
+      <div class="row mt-3" style="margin-bottom: 10px;" style="margin-bottom: 20px;">
+        <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 20px;">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid" src="logos/i5.jpg">
+              <p style="font-size:15px; text-align: left;">WORLD NEWS</p>
+              <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;">DeSantis is no loner</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 20px;">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid" src="logos/i6.jpg">
+              <p style="font-size:15px; text-align: left;">FILM</p>
+              <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;">Oppenheimer</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 20px;">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid" src="logos/i7.jpg">
+              <p style="font-size:15px; text-align: left;">ENVIRONEMENT</p>
+              <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;">Lord Frost</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 20px;">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid" src="logos/i8.jpg">
+              <p style="font-size:15px; text-align: left;">ENVIRONEMENT</p>
+              <h2 style="margin-top:-15px; font-size:25px; text-align: left; color: black;"> Petrol</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="container-fluid" style="height: 50px; background-color: #333;"></div>
+    <div class="container-fluid" style="background-color: #1A1F24; height: auto; padding-left: 100px; padding-right: 100px;">
+        <img style="width: 200px;" src="logos/itimes.png">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <p style="text-align: left; margin-top: 30px;">Get in touch</p>
+            <div class="row">
+              <div class="col-lg-6 ">
+                <a href="#">About us<br></a>
+                <a href="#">Help<br></a>
+                <a href="#">The Sunday Times Editorial Complaints<br></a>
+                <a href="#">Classified advertising<br></a>
+                <a href="#">The Sunday Times Editorial corrections<br></a>
+              </div>
+
+              <div class="col-6">
+                <a href="#">Contact us<br></a>
+                <a href="#">The Times Editorial Complaints<br></a>
+                <a href="#">Place an announcement<br></a>
+                <a href="#">Display advertising<br></a>
+                <a href="#">The Sunday Times corrections<br></a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 col-md-6 col-sm-6 mt-4 mb-5">
+            <p style="text-align: left;">More from The Times and The Sunday Times</p>
+            <div class="row">
+              <div class="col-lg-3 col-sm-3">
+                <a href="#">The Times e-paper<br></a>
+                <a href="#">Times Print Gallery<br></a>
+                <a href="#">Times+<br></a>
+                <a href="#">Best Places to Live<br></a>
+                <a href="#">Times Money Mentor<br></a>
+              </div>
+
+              <div class="col-lg-3 col-sm-3">
+                <a href="#">The Sunday Times e-paper<br></a>
+                <a href="#">The Times Archieve<br></a>
+                <a href="#">The Sunday Times Rich List<br></a>
+                <a href="#">Best Places to Stay<br></a>
+                <a href="#">Times Luxury<br></a>
+              </div>
+
+              <div class="col-lg-3 col-sm-3">
+                <a href="#">Times Currency<br></a>
+                <a href="#">The Times Archieve<br></a>
+                <a href="#">The Sunday Times Rich List<br></a>
+                <a href="#">Best Places to Stay<br></a>
+                <a href="#">Times Luxury<br></a>
+              </div>
+
+              <div class="col-lg-3 col-sm-3">
+                <a href="#">The Sunday Times e-paper<br></a>
+                <a href="#">Newsletters<br></a>
+                <a href="#">The Sunday Times Rich List<br></a>
+                <a href="#">Best Places to Stay<br></a>
+                <a href="#">Times Luxury<br></a>
+                <a href="#">Puzzles<br></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p style="text-align: left; font-size: 14px;">@ Times Media Limited 2023.</p>
+          <p style="text-align: left; font-size: 14px;">Registered in England No. 894646. Registered office: 1 Landon Bridge Street, SE1 9GF.</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="#"> Privacy & cookie policy </a>
+              <a href="#"> Topics </a>
+            </div>
+
+            <div class="col">
+              <a href="#"> Licensing </a>
+              <a href="#"> Authors </a>
+            </div>
+
+            <div class="col">
+              <a href="#"> Cookie settings </a>
+              <a href="#"> Commissioning terms </a>
+            </div>
+
+            <div class="col">
+              <a href="#"> Site map </a>
+              <a href="#"> Terms and conditions </a>
+            </div>
+            
+            <img style ="width:150px; height: 45px;" src=https://www.thetimes.co.uk/d/assets/ipso-f7843bf2cd.png>
+
+          </div>
+
+        </div>
+      </div>
+
+      
+    <div>
+
+
+
+  </body>
+</html>

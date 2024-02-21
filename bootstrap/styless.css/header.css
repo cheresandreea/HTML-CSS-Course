@@ -1,0 +1,228 @@
+body{
+  margin:0; 
+  padding: 0;
+  background-color: #f5efeb;
+}
+
+.box{
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+.the-times-logo{
+  width: 170px;
+  height: 20px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.title{
+  font-size: 42px;
+  font-family: TimesModern-Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.enjoy-container{
+  text-align: center;
+  
+}
+
+p{
+  color:white;
+  font-family: TimesModern-Regular;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.par2{
+  margin-top:-15px;
+}
+
+.btn-subscribe{
+  background-color: rgb(21, 115, 162);
+  font-family: Roboto-Regular;
+  color:white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  width: 170px;
+  height: 45px;
+  text-align: center;
+}
+
+.btn-subscribe:hover{
+  background-color:rgb(25, 100, 137) ;
+  color:white
+}
+
+.subsc-par{
+  font-size: 13.5px;
+  padding-top: 8px;
+}
+
+.news-container{
+  max-width: 1182px;
+  height: 1000px;
+}
+
+.enjoy-container{
+  top: 0;
+  left: 0;
+  margin-left: -2px;
+  margin-right: -9px;
+  padding:10px;
+}
+
+.all-page-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.adds-container{
+  padding: 140px;
+  text-align: center;
+  border-bottom: 1px solid #ddcaca;
+  
+
+}
+
+.img-the-times{
+  width: 500px;
+  height: 60px;
+}
+
+.container-img-the-times{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.para-the-times{
+  font-size: 14px;
+  color:#333333;
+  font-weight: 500;
+  font-family: TimesDigitalW04-RegularSC,TimesDigitalW04-RegularSC-fallback,serif;
+  padding-top: 10px;
+}
+
+.img-gif{
+  width: 300px;
+  height: 60px;
+}
+
+
+.main-bar{
+  height: 40px;
+}
+
+
+.navbar-logo{
+  width: 170px;
+  margin-left: 164px;
+  position: relative;
+  top:-4px
+}
+
+/* .arrow{
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-top: 16px;
+  margin-left: -20px;
+} */
+
+/* .down{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+} */
+
+.mynavbar{
+  display: flex;
+  align-items:center;
+}
+
+.today-section-logo{
+  background-color:#4b4b4b;
+}
+
+.past-six-days-logo{
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  background-color: black;
+  border-right: 1px solid rgb(102, 101, 99);
+}
+
+.explore-logo{
+  background-color: black;
+  border-right: 1px solid rgb(102, 101, 99);
+}
+
+.times-radio-logo{
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  background-color: black;
+  border-right: 1px solid rgb(102, 101, 99);
+}
+
+.today-section-logo:hover, .past-six-days-logo:hover, .explore-logo:hover, .times-radio-logo:hover, .login-logo:hover
+{
+  background-color: white;
+}
+
+.today-section-link:hover, .past-six-days-link:hover, .explore-link:hover, .times-radio-link:hover, .login-link:hover
+{
+  color: #333333 !important;
+}
+
+.login-logo{
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  background-color: black;
+  border-left: 1px solid rgb(102, 101, 99);
+  margin-left: 300px;
+}
+
+@media screen and (max-width: 768px){
+  .mynavbar{
+    max-height: 10px;
+  }
+}
+
+.subscribe-logo{
+  background-color: rgb(30, 134, 169);
+}
+
+.subscribe-logo:hover{
+  opacity: 0.85;
+}
+
+.search-logo{
+  background-color: rgb(102, 101, 99);
+  border: none;
+}
+
+.search-link{
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  /* Apply display: none to hide the buttons on smaller screens */
+  .display-none {
+    display: none;
+  }
+}
+
+p, h1, h2, h3, h4{
+  font-family: TimesModern-Bold,TimesModern-Bold-fallback,serif;
+  color:grey;
+
+}
+
+a{
+  color:white;
+  font-size: 13px;
+  
+}
